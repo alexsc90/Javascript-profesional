@@ -4,39 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DOM</title>
+    <title>PlatziMediaPlayer.js</title>
 </head>
 <body>
     <header>
-
+        <h1>PlatziMediaPlayer.js</h1>
+        <p>An extensible media player</p>
     </header>
-
-    
-    <script>
-        const video = document.querySelector("video");
-        const button = document.querySelector("button");
-
-        function MediaPlayer(config) {
-            this.media = config.el
-        }
-
-        MediaPlayer.prototype.play = function() {
-            video.play();
-        };
-
-        MediaPlayer.prototype.pause = function() {
-            video.pause()
-        }
-
-        const player = new MediaPlayer({el: player})
-
-        button.onclick = () => {
-            if(video.paused) {
-                video.play();
-            } else {
-                video.pause();
-            }
-        }
-    </script>
+    <main class="container">
+        <video class="movie">
+            <source src="">
+        </video>
+        <button id="play">Play/Pause</button>
+        <button id="mute">Mute/Unmute</button>
+    </main>
+    <script type="module" src="/assets/index.js"></script>
 </body>
 </html>
