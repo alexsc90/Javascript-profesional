@@ -1,0 +1,15 @@
+{
+  "name": "@alexsc90/platzimediaplayer",
+  "version": "1.0.0",
+  "main": "lib/MediaPlayer.js",
+  "scripts": {
+    "build": "tsc -p ./ --outDir lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Alejandro Silva <a.s.cebreros@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.3.4"
+  }
+}
