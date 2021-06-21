@@ -19,4 +19,14 @@ To install all dependencies run the command `npm install`.
 
 \* The video source in the *index.html* file inside the **website** folder has been removed for optimization purposes, so feel free to add your own favorite video if you want to check out how it works. 
 
+```
+<main class="container">
+  <video class="movie">
+    <source src="<add your own video source here>">
+  </video>
+  <button id="play">Play/Pause</button>
+  <button id="mute">Mute/Unmute</button>
+  </main>
+```
+
 Have fun!
